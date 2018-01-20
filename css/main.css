@@ -312,15 +312,16 @@ footer .theme-by {
 .post-preview {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-  position: relative;
-  right:20%;
-  width: 150%;
+
   
 }
 
 @media only screen and (min-width: 768px) {
   .post-preview {
     padding: 35 0 ;
+    position: relative;
+    right:20%;
+    width: 150%;
   }
 }
 
