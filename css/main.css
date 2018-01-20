@@ -50,10 +50,14 @@ hr.small {
 
 .main-content {
   padding-top: 80px;
+  position: relative;
+  right:20%;
+  width: 150%;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 756px) {
   .main-content {
     padding-top: 130px;
+
   }
 }
 
@@ -319,9 +323,7 @@ footer .theme-by {
 @media only screen and (min-width: 768px) {
   .post-preview {
     padding: 35 0 ;
-    position: relative;
-    right:20%;
-    width: 150%;
+
   }
 }
 
@@ -355,6 +357,7 @@ footer .theme-by {
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
+
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
