@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Let's bring the most meaningful impact that we can!
+image: /img/download_for_spark.png
 ---
 
 My name is Dmytro Kravchenko. I'm a Consulting Engineer working at Cisco, focused on Collaboration Solutions, Cisco Spark and Automation. 

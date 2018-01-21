@@ -77,7 +77,7 @@ And we should be able to see the statistics of the calls. By default, it generat
    1. Enable auto answer
    2. Configure  "Multiple Call/Call Waiting Settings" for 200:  
 
-[![alt text](/img/pastedImage_1.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/img/pastedImage_1.png)
+[![alt text](/img/pastedImage_1.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/pastedImage_1.png)
 
 2. Creating two SIP trunks (one incoming and one outgoing, in my example I used two different CUCM clusters in order to overcome an issue that we cannot use the same IP of an incoming/outgoing trunk IP, of course we could change some incoming/destination ports, but as I had two clusters I've decided to use them both). 
    1. One incoming from the SIPp server, which will have a CSS with the access to a registered phone and to the outgoing trunk.
@@ -86,7 +86,7 @@ And we should be able to see the statistics of the calls. By default, it generat
    4. On the CUCM2 configure a SIP trunk to the SIPp server.
    5. Create a route pattern, for example 30XX to route all the calls to those number to the SIPp server.
 
-[![alt text](/img/pastedImage_4.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/img/pastedImage_4.png)
+[![alt text](/img/pastedImage_4.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/pastedImage_4.png)
 
 ## Running SIPp 
 
@@ -109,14 +109,14 @@ Where uac.xml is a simple xml with the scenario for a simple call. Can be found 
 
 And here are the results. Server side:
 
-[![alt text](/img/pastedImage_2.jpg "The results. Server side")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/img/pastedImage_2.jpg)
+[![alt text](/img/pastedImage_2.jpg "The results. Server side")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/pastedImage_2.jpg)
 
 Client side:
-[![alt text](/img/pastedImage_3.jpg "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/img/pastedImage_3.jpg)
+[![alt text](/img/pastedImage_3.jpg "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/pastedImage_3.jpg)
 
 As we can see and can judge, in the current setup the CUCM cannot process 20 calls per second, which leads to some retransmits and failed calls.  
 
 And it's also proved from the vCenter performance tab of the respective server:
-[![alt text](/img/pastedImage_5.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/img/pastedImage_5.png)
+[![alt text](/img/pastedImage_5.png "Multiple Call/Call Waiting Settings")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/pastedImage_5.png)
 
 Thank you. 
