@@ -16,7 +16,7 @@ body {
   background-image: url({{ site.page-img }});
   background-attachment: fixed;
   {% endif %}
-   
+
 }
 p {
   line-height: 1.5;
@@ -317,7 +317,7 @@ footer .theme-by {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 
-  
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -532,10 +532,10 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
