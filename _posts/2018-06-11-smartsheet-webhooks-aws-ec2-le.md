@@ -43,7 +43,7 @@ Let's tackle each of them separately.
 ### Create a webhook
 On the screenshot below there is the Authorization header, which will be used in any request to Smartsheet:
 [![alt text](/img/2018-06-11-smartsheet-webhooks-aws-ec2-le/sm1.png "Postman Example Auth header")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/2018-06-11-smartsheet-webhooks-aws-ec2-le/sm1.png)
-Please, insert you API token (we've grayed-out that area).
+Please, insert you API token (after the **Bearer** word).
 
 And below is the **body**:
 [![alt text](/img/2018-06-11-smartsheet-webhooks-aws-ec2-le/sm2.png "Postman Example Auth Body")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/2018-06-11-smartsheet-webhooks-aws-ec2-le/sm2.png)
@@ -143,7 +143,7 @@ And finaly, we need to run our python script to enable Flask to receive requests
 python your-script.py
 ~~~
 
-### Enable the webhook 1
+### Enable the webhook 2
 Now, when you try to enable your webhook, it should return something like this, with the **ENABLED** status:
 ~~~json
 {
@@ -171,5 +171,8 @@ Now, when you try to enable your webhook, it should return something like this, 
 ### Checking the output from the Smartsheet
 Now in the _LogFile.log_ you should see whenever anyone make any change to the sheet in question. It won't share the exact changes, but rather references on what has happened. And then, to retrieve those we need to use the [Get Row](http://smartsheet-platform.github.io/api-docs/?python#get-row) API, but it's a different story.
 
+
+## Summary
+So, the main challenge was the enforced security by Smartsheet, which required a publicly (CA) signed certificate. We needed a custom domain, because none of the CA would sigh AWS hostname. After purchasing a DNS name and creating a certificate with the Let'sEncrypt service, the webhook creation went well.   
 
 Thank you very much and hope it will help you to save time.
