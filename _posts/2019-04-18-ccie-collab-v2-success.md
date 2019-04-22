@@ -105,6 +105,7 @@ The best way to prepare for the Troubleshooting section is to have everything co
 My favourite debugs/logs that I was collecting or checking at the very beginning of encountering issues:
 * CUCM: file tail activelog /cm/trace/ccm/sdl/ recent
 * CUBE:
+
 ~~~
 debug ccsip messages
 debug voice ccapi inout
@@ -113,6 +114,7 @@ terminal monitor
 
 sh call active voice compact
 ~~~
+
 * CMS: From Admin Web Interface - Logs->Event log
 * Expressways: Status->Logs->Event Log
 
