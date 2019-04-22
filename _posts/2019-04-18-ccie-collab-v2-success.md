@@ -67,7 +67,7 @@ And for there are some really awesome component specific sources, that were righ
 
 # Lab setup
 
-##Topology
+## Topology
 I was lucky and we got hold of two BE6000 servers (based on UCS C220 M4S). And we also doubled their RAM (for future expansions and testing).
 
 You can find some sample logical topologies on the Internet, so let me offer you the one that I was using for preparations:
