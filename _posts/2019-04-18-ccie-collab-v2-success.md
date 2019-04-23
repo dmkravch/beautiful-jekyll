@@ -17,7 +17,7 @@ I was ready to start actively preparing in the beginning of 2018, and at the sam
 
 It took me some time to pass the Written part of the exam, as I was targeting the new version and there were no official Study Guides or something similar. I will talk later on what exactly I used to prepare myself. And in the mid-October the Written was passed. I had some time to switch off as in one week was my wedding. I'm was lucky that my then-fiancé took almost all responsibilities for the wedding, so I could concentrate on preparing to the test.  
 
-I've started preparing for the Lab in November 2018 by building it. From scratch. We've got some UCS servers, which we placed in the rack, found available IPs and started building the topology. After some hiccups the Lab was ready right after Christmas holidays and I could continue with technology learning and practising. My first attempt was scheduled for the end-February 2019. I felt prepared, but failed Troubleshooting and Configuration sections.
+I've started preparing for the Lab in November 2018 by building it. From scratch. I've got some UCS servers, which were placed in the rack, found available IPs and started building the topology. After some hiccups the Lab was ready right after Christmas holidays and I could continue with technology learning and practising. My first attempt was scheduled for the end-February 2019. I felt prepared, but failed Troubleshooting and Configuration sections.
 
 And my first advise to you would be, as soon as you back in the hotel or airport, **write down everything you remember from the exam**. I'd made a mistake not recording it, as I felt exhausted, and felt confident that I'll be able to recall it later. Don't neglect it and take time and try to remember everything what was there, as it will be essential in case the first attempt not successful.
 
@@ -59,16 +59,16 @@ As during the preparation to the Written, there were no official guides for the 
 ## Lab exams
 For the Lab part of the exam, as obvious it could be, you need to have your own **Lab Setup**, where you could practice, repeat and verify the technology. I will discuss later on how my lab looked liked.
 
-As for the Training companies out there, I would highly recommend collabcert.com, specifically for the Lab part. I was using their video and workbook offers, and convinced that it was integral part of my success.
+As for the Training companies out there, I would highly recommend collabcert.com, specifically for the Lab part. I was using their video and workbook offers, and I'm convinced that it was an integral part of my success.
 
-And for there are some really awesome component specific sources, that were right to the point and helped me in understanding CMS and CUBEs better:
+And below there are some really awesome component specific sources, that were right to the point and helped me in understanding CMS and CUBEs better:
 * [CMS Lab](https://cmslab.ciscolive.com/)
 * [CUBE lab](http://siplab.ciscolive.com/)
 
 # Lab setup
 
 ## Topology
-I was lucky and we got hold of two BE6000 servers (based on UCS C220 M4S). And we also doubled their RAM (for future expansions and testing).
+Our team was lucky and got two BE6000 servers (based on UCS C220 M4S). The RAM was doubled (for future expansions and testing).
 
 You can find some sample logical topologies on the Internet, so let me offer you the one that I was using for preparations:
 
