@@ -57,7 +57,7 @@ As during the preparation to the Written, there were no official guides for the 
 4. And for the Evolving Technologies section there is just an excellent materials at [CCIE/CCDE Evolving Technologies Study Guide](https://learningnetwork.cisco.com/docs/DOC-31004).
 
 ## Lab exams
-For the Lab part of the exam, as obvious it could be, you need to have your own **Lab Setup**, where you could practice, repeat and verify the technology. I will discuss later on how my lab looked liked.
+For the Lab part of the exam, as obvious it could be, you need to have your own **Lab Setup**, where you could practice, repeat and verify the technology. I will discuss later on how my lab looked like.
 
 As for the Training companies out there, I would highly recommend collabcert.com, specifically for the Lab part. I was using their video and workbook offers, and I'm convinced that it was an integral part of my success.
 
@@ -144,7 +144,7 @@ Not everything works as in real life, but you need to approach that from differe
 
 ## Preparation strategy
 The exam requires full dedication and excluding all the external distractions. At first I was preparing to the Lab after work and during weekends, but I felt that it's not so useful or that it is bringing me closer to my goal.
-That's a must to take preparatory vacation and focus only on the Lab. At least for me couldn't combine work and preparations, as work always took priority.
+That's a must to take preparatory vacation and focus only on the Lab. At least for me, I couldn't combine work and preparations, as work always took priority.
 
 
 
