@@ -22,3 +22,8 @@ Licensing:
 * Using vSAN in production environments requires a special license that you assign to the vSAN clusters.
 
 > **NOTE**: In my case, during the initial deployment, I missed the fact that I might require a license to use vSAN. Fortunately, I figured out that creation of a new Cluster will allow me to use vSAN in a grace period, which were pretty enough to get familiar with the vSAN.
+
+## Preparation of UCS servers
+As was told before, I had UCS C220 M4S servers, that were used for different purposes. As an example let's take CMS1000 server, which has two physical drives and one virtual drive configured in RAID 1.
+
+[![alt text](/img/2019-05-05-vsan-on-ucs/physical-drives.png "CMS1000 physical drives")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/2019-05-05-vsan-on-ucs/physical-drives.png)
