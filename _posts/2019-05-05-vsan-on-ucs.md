@@ -26,6 +26,8 @@ Licensing:
 ## Preparation of UCS servers
 As was told before, I had UCS C220 M4S servers, that were used for different purposes. As an example let's take CMS1000 server, which has two physical drives and one virtual drive configured in RAID 1.
 
+> **NOTE**: The following configuration was done on the CIMC of the UCS C-series servers. In the Storage -> Cisco 12G SAS Modular Raid Controller (SLOT-HBA) sub-menu.
+
 [![alt text](/img/2019-05-05-vsan-on-ucs/Virtual-drive-info.png "CMS1000 physical drives")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/2019-05-05-vsan-on-ucs/Virtual-drive-info.png)
 
 [![alt text](/img/2019-05-05-vsan-on-ucs/Virtual-drive-info.png "CMS1000 virtual drives")](https://raw.githubusercontent.com/dmkravch/dmkravch.github.io/master/img/2019-05-05-vsan-on-ucs/Virtual-drive-info.png)
@@ -47,6 +49,8 @@ Now we need to prepare the Virtual disks for installing ESXi and for being part 
 That needs to be repeated with every Virtual Disk. And the same procedure also needs to be performed with the remaining two UCS servers to prepare them as part of the vSAN cluster.
 
 ## Configuration of the vSAN
+> **NOTE**: The following configuration was done on the vCenter Web Interface. 
+
 As a preliminary step, ESXi needs to be installed onto the small ESXi virtual drive that we created. Feel free to use any available guide or official pages. For example this link: [How to install ESXi 6.7 step-by-step](https://masteringvmware.com/how-to-install-esxi-6-7-step-by-step/) or official document: [VMware ESXi Installation and Setup](https://docs.vmware.com/en/VMware-vSphere/6.7/vsphere-esxi-67-installation-setup-guide.pdf).
 
 After the installation and adding that host to be managed by the vCenter, you will be able to mark a disk as Flash (it's kind of masking HDD and presenting it as SSD, so vSAN could be created): [Mark Storage Devices as Flash](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.storage.doc/GUID-99BB81AC-5342-45E5-BF67-8D43647FAD31.html).
@@ -66,4 +70,4 @@ For the exact steps on how to configure vSAN, please, refer to [Configure a Clus
 ## Conclusion
 As a conclusion, I could say that it's possible to practice vSAN even if you don't have appropriate licenses, SSD drive and disks of the same size. Definitely, performance will be degraded, but still it's enough to get familiar with the vSAN and run some virtual machines on it.
 
-Thank you for reading. 
+Thank you for reading.
