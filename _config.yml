@@ -25,10 +25,13 @@ description: A blog about Cisco Collaboration technologies and more ;)
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Cisco Spark: "https://www.ciscospark.com/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://dmkravch.github.io"
+    - Webex for Developers: "https://developer.webex.com/docs/platform-introduction"
+    - Webex REST APIs: "https://developer.webex.com/docs/api/guides/webex-meetings-rest-api"
+    - Webex XML APIs: "https://developer.cisco.com/docs/webex-xml-api-reference-guide/"
+    - Cisco Devices Programmability: "https://blogs.cisco.com/developer/build-apps-for-webex-devices"
+    - Project Workplace: "https://projectworkplace.cisco.com/"
+    - Trust Portal: "https://trustportal.cisco.com/c/r/ctp/trust-portal.html#/"
+  Author's home: "https://www.linkedin.com/in/dmytrokravchenko/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
